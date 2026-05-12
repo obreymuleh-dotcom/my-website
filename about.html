@@ -1,28 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
     <title>About Me</title>
 
     <style>
-
         body{
-            margin: 0;
-            padding: 0;
             background-color: purple;
             color: white;
             font-family: Arial;
             text-align: center;
-        }
-
-        header{
-            background-color: black;
-            padding: 20px;
-        }
-
-        .logo{
-            width: 100px;
         }
 
         .navbar{
@@ -30,91 +16,58 @@
         }
 
         .navbar a{
-            text-decoration: none;
             background-color: white;
             color: purple;
-            padding: 14px 28px;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 10px;
             margin: 10px;
-            border-radius: 30px;
             font-weight: bold;
-            display: inline-block;
-            transition: 0.3s;
         }
 
         .navbar a:hover{
             background-color: yellow;
             color: black;
-            transform: scale(1.1);
+        }
+
+        .logo{
+            width: 120px;
         }
 
         .content{
-            margin-top: 50px;
+            margin-top: 40px;
+            padding: 20px;
         }
-
-        .card{
-            background-color: rgba(255,255,255,0.1);
-            width: 70%;
-            margin: auto;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0px 0px 15px black;
-        }
-
-        footer{
-            background-color: black;
-            padding: 15px;
-            margin-top: 50px;
-        }
-
     </style>
-
 </head>
 
 <body>
 
-    <header>
+    <img src="images/logo.png" alt="Logo" width="150">
 
-        <img src="images/logo.png" class="logo">
+    <h1>ABOUT ME</h1>
 
-        <h1>ABOUT ME</h1>
-
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
-    </header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </div>
 
     <div class="content">
 
-        <div class="card">
+        <h2>Who Am I?</h2>
 
-            <h2>Who Am I?</h2>
+        <p>
+            My name is Nandy.
+            I am a university student interested in
+            cybersecurity, digital forensics and website development.
+        </p>
 
-            <p>
-                My name is Nandy and I am currently a university student.
-            </p>
-
-            <p>
-                I am interested in cybersecurity,
-                ethical hacking, digital forensics
-                and website development.
-            </p>
-
-            <p>
-                I enjoy learning new technologies
-                and building websites using HTML.
-            </p>
-
-        </div>
+        <p>
+            I enjoy learning HTML and creating websites.
+        </p>
 
     </div>
 
-    <footer>
-        © 2026 My Website
-    </footer>
-
 </body>
-
 </html>
